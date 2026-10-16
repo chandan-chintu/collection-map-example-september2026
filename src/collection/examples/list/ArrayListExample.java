@@ -9,14 +9,12 @@ public class ArrayListExample {
         // wrapper class
 //        int a=10;int b=10; int c=null;
 //        Integer d =10; Integer e = null;
-
         //declaring list
         List<Integer> list1 = new ArrayList<>(); //{10,-12,0,null,23,39,-33}
 
         // to store multiple kind of data in single list
         List<?> list2 = new ArrayList<>(); //{10,null,0,-34,"Hi",'t',false,4.56,5.67f}
         List<Object> list3 = new ArrayList<>(); //{10,null,0,-34,"Hi",'t',false,4.56,5.67f}
-
         //add data
         list1.add(10);
         list1.add(5);
@@ -28,7 +26,7 @@ public class ArrayListExample {
         list1.add(23);
         //list1.add(null);
         list1.add(3);
-
+// add some dummy lines
         System.out.println("list1 is : "+list1);
 
         // remove data
@@ -41,7 +39,7 @@ public class ArrayListExample {
         // search
         System.out.println("list1 3rd index data is : "+list1.get(3));
         System.out.println("list1 5th index data is : "+list1.get(5));
-
+// add some dummy lines
         // sort
         Collections.sort(list1); // sorts in ascending order
         System.out.println("list1 in ascending order : "+list1);
